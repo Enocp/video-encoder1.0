@@ -21,7 +21,7 @@ func NewVideoService() VideoService {
 	return VideoService{}
 }
 
-func (v *VideoService) Dowload(bucketName string) error {
+func (v *VideoService) Download(bucketName string) error {
 
 	ctx := context.Background()
 
